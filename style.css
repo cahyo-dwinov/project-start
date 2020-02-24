@@ -58,10 +58,20 @@ a {
     display: grid;
     align-items: center;
     justify-content: center;
-    height: 35vh;
+    height: 500px;
     font-size: 20px;
 }
 
+/* GRID */
+.grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.box > img {
+    width: 100%;
+}
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
